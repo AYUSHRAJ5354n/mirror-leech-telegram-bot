@@ -1,22 +1,22 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
+BOT_TOKEN = "8193129762:AAG4lnliaI3M1hUzhvavE82A9QwSgp1G3Sc"
+OWNER_ID = 1685470205
+TELEGRAM_API = 26177254
+TELEGRAM_HASH = "4051215e417f1f99357e362c2ed158a8"
 # OPTIONAL CONFIG
 TG_PROXY = {}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
 AUTHORIZED_CHATS = ""
 SUDO_USERS = ""
-DATABASE_URL = ""
+DATABASE_URL = "mongodb+srv://Ayush:AYUSHRA5354N@cluster0.lskh5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 STATUS_LIMIT = 4
 DEFAULT_UPLOAD = "rc"
 STATUS_UPDATE_INTERVAL = 15
 FILELION_API = ""
 STREAMWISH_API = ""
 EXCLUDED_EXTENSIONS = ""
-INCOMPLETE_TASK_NOTIFIER = False
+INCOMPLETE_TASK_NOTIFIER = True
 YT_DLP_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
 NAME_SUBSTITUTE = ""
@@ -64,7 +64,7 @@ UPSTREAM_BRANCH = "master"
 # Leech
 LEECH_SPLIT_SIZE = 0
 AS_DOCUMENT = False
-EQUAL_SPLITS = False
+EQUAL_SPLITS = True
 MEDIA_GROUP = False
 USER_TRANSMISSION = False
 HYBRID_LEECH = False
@@ -105,4 +105,5 @@ SEARCH_PLUGINS = [
     "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/magnetdl.py",
     "https://raw.githubusercontent.com/msagca/qbittorrent_plugins/main/uniondht.py",
     "https://raw.githubusercontent.com/khensolomon/leyts/master/yts.py",
+    "https://raw.githubusercontent.com/msagca/qbittorrent_plugins/main/torrent-pirat.com/,
 ]
